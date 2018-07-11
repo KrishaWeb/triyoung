@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+}
+@supports (-ms-ime-align:auto) {
+}
+@media (max-width: 1400px){
+}
+@media (max-width: 1140px){
+}
+@media (max-width: 1024px){
+	.home-about-section .about-right{padding: 10px 30px;}
+}
+@media (max-width: 991px){
+	.header-wrap header{padding: 0 10px;}
+	.header-wrap .menu nav > ul > li > a{font-size: 15px; padding: 44px 11px 42px;}
+	.header-wrap .cta-btn{padding-left: 20px;}
+	.home-our-services ul li .home-service-img{height: 300px;}
+	.home-our-services ul li .home-service-desc{height: 300px;}
+	.home-our-services ul li .home-service-desc a{font-size: 16px;}
+	.footer-wrap{padding-bottom: 12px;}
+	.f-block > li{margin-bottom: 30px;}
+	.f-block > li.width-17{width: 33.30%;}
+	.f-block > li.width-25{width: 50%;}
+	.f-block > li.width-23{width: 50%;}
+	.home-blog-list .blog-caption h3{font-size: 20px;}
+	.team-wrap ul li h3{font-size: 16px;}
+	.team-detail-wrap .padding-60{padding: 60px 20px;}
+	.comment-wrap .commentlist > li .children{padding-left: 30px;}
+}
+@media (max-width: 767px){
+	.header-wrap{padding-top: 0px; height: 80px;}
+	.header-wrap header{padding: 0 15px; height: 80px; position: fixed; top: 0; left: 0; right: 0;}
+	.header-wrap .logo{float: none; width: 100%; padding: 15px 0;}
+	.header-wrap .menu{float: none; width: 100%; position: absolute; left: 0; top: 100%; background: #ffffff; -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, .2);-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, .2);	box-shadow: 0px 0px 3px rgba(0, 0, 0, .2);}
+	.menu-toggle{display: block; float: right; padding-top: 11px;}
+	.header-wrap .menu .collapse{display: none;}
+	.header-wrap .menu .collapse.show{display: block;}
+	.header-wrap .menu nav > ul > li{float: none;}
+	.header-wrap .menu nav > ul > li > a{display: block; padding: 14px 41px 12px;}
+	.header-wrap .cta-btn{padding-left: 22px; padding-bottom: 20px; padding-top: 5px;}
+	.banner-slider .banner-left{height: 324px; display: none;}
+	.banner-slider .banner-right{padding: 30px 30px 60px;}
+	.banner-slider .banner-right .title{padding-bottom: 30px;}
+	.banner-slider .banner-right .cta-btn{padding-top: 15px;}
+	.banner-slider .slick-dots{max-width: 100%;}
+	.info-banner h3{font-size: 20px; padding: 20px;}
+	.home-our-services ul li .home-service-img{height: 250px;}
+	.home-our-services ul li .home-service-desc{height: 200px;}
+	.home-our-services ul li:nth-child(2) .home-service-desc:before, .home-our-services ul li:nth-child(5) .home-service-desc:before, .home-our-services ul li:nth-child(8) .home-service-desc:before{bottom: inherit; top: -50px; background: url(../images/angle-up.png) no-repeat;}
+	.home-blog .bg-white{padding: 0 15px;}
+	.blog-info ul li{float: none; margin-right: 0; margin-bottom: 5px;}
+	.home-about-section .about-left{height: 290px;}
+	.home-about-section .about-right{padding: 30px; max-height: inherit;}
+	.f-block > li{margin-bottom: 30px;}
+	.f-block > li.width-17{width: 100%;}
+	.f-block > li.width-25{width: 100%;}
+	.f-block > li.width-23{width: 100%;}
+	.footer-wrap h5{margin-bottom: 30px;}
+	.vision-mission-wrap ul li{border-right: 0; border-bottom: 1px solid #e6e6e6;}
+	.services-list-wrap .home-about-section .about-left{height: 280px;}
+	.team-detail-wrap .team-title{padding-top: 25px;}
+	.map-wrap iframe{height: 350px;}
+	.blog-list > li .blog-caption{padding: 30px 15px;}
+	.blog-list > li .blog-caption h3{font-size: 20px; line-height: 30px;}
+}
+@media (max-height: 400px){
+	.header-wrap .menu{max-height: 230px; overflow: auto;}
+}
